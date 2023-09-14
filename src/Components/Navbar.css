@@ -1,0 +1,21 @@
+/* Add this CSS to your stylesheet or component's CSS */
+
+.navbar-link {
+
+
+    color: black;
+
+    cursor: pointer;
+    font-size: 20px;
+
+    transition: color 0.3s;
+
+
+}
+
+.navbar-link:hover {
+    color: royalblue;
+    text-shadow: 5px 5px 10px rgba(123, 85, 85, 0.5);
+
+
+}

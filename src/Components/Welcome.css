@@ -1,0 +1,45 @@
+.welcome {
+    max-width: 100%;
+    color: white;
+    background-image: 'url(/assets/bg.jpeg)';
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    padding-left: 30px;
+
+
+
+
+}
+
+.welcome h1 {
+    font-size: 50px;
+    padding: 10px
+}
+
+
+
+
+
+
+@media (max-width: 700px) {
+
+
+
+    .welcome {
+        flex-direction: column;
+        text-align: start;
+        gap: 20px;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .welcome h1 {
+        font-size: 30px;
+
+    }
+
+
+
+
+}

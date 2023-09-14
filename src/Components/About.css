@@ -1,0 +1,64 @@
+img {
+    width: 30%;
+    border-radius: 50%;
+    height: 30%;
+    /* Set the desired height */
+    object-fit: cover;
+
+
+    padding: 2%;
+
+}
+
+.box {
+    background-color: rgb(42, 38, 39);
+    max-width: 100%;
+    color: white;
+    display: flex;
+    gap: 50px;
+}
+
+.text h1 {
+    font-size: 95px;
+
+}
+
+.box p {
+    font-size: 28px;
+    margin-top: -2%;
+    text-align: start;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+
+    img {
+        padding: 2%;
+        width: 95%;
+        height: 50%;
+    }
+
+    .box {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .box h1 {
+        font-size: 50px;
+        margin-left: 5%;
+        margin-top: -5%;
+    }
+
+    .box p {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: -15px;
+    }
+}
